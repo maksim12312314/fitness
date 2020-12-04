@@ -1,4 +1,7 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create ({
     background: {
@@ -17,11 +20,22 @@ const styles = StyleSheet.create ({
         width: "100%",
         height: 500,
         alignItems: "center",
+        
+    },
+    textUp: {
+        width: windowWidth * 1,
+        height: 50,
+        justifyContent: "center",
+        alignItems: "center",
+        
     },
     photoStyle2: {
-        width: "100%",
-        height: 500,
+        width: windowWidth * 0.7,
+        height: windowHeight * 0.52,
         alignItems: "center",
+    },
+    photoContain: {
+        height: 400,
     },
     textContain: {
         height: 100,

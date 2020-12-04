@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 11052,
-  "expoServerNgrokUrl": "https://gt-248.anonymous.fitness.exp.direct",
-  "packagerNgrokUrl": "https://packager.gt-248.anonymous.fitness.exp.direct",
-  "ngrokPid": 8724
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }
